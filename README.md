@@ -23,16 +23,27 @@ The application supports:
 - ## 📂 Project Structure
 - project-CLICKSTREAM CUSTOMER CONVERSION/
 ├── app.py # Streamlit application
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # Project documentation
+
 ├── data/ # Dataset folder (empty by default)
+
 │ ├── train.csv
+
 │ └── test.csv
+
 ├── models/ # Model folder (empty by default)
+
 │ ├── classifier_model.pkl
+
 │ ├── regression_model.pkl
+
 │ └── clustering_model.pkl
+
 │ ├── CLICKSTREAM_CUSTOMER_CONVERSION.ipynb
+
 
 
 ---
@@ -44,9 +55,13 @@ Due to GitHub's file size limits, the datasets and trained model files are hoste
 - **Train and Test Dataset**: [Download here](https://drive.google.com/drive/folders/1oesa87_YNPYWpsMr9gsor_d1Pn9aBjKu?usp=drive_link)
 
 Place both CSV files inside the `data/` folder:
+
 ├── CLICKSTREAM CUSTOMER CONVERSION.datasets/
+
 │ ├── train.csv
+
 │ └── test.csv
+
 
 
 ---
@@ -55,11 +70,17 @@ Place both CSV files inside the `data/` folder:
 - **Classifier,Regression & Clustering Model**: [Download here](https://drive.google.com/drive/folders/1IX_NlBMIL3f511PYG0yI_ITQLRZpU6lO?usp=drive_link)
 
 Place all `.pkl` files inside the `models/` folder:
+
 project-root/
+
 ├── CLICKSTREAM CUSTOMER CONVERSION.model/
+
 │ ├── classifier_model.pkl
+
 │ ├── regression_model.pkl
+
 │ └── clustering_model.pkl
+
 
 
 ---
